@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project basedir=".." default="build" name="Minecraft">    
+<project basedir=".." default="build" name="Minecraft">
+	<!--
+	 * This build file should be placed in the 'src' folder
+	 * In order to use this build file, you must have run 'gradle setupDecompWorkspace'
+	 * You must create a folder called 'lib' in the forge directory and put JUnit.jar and hamcrest-core-1.3.jar in it
+	   These can be downloaded from https://github.com/junit-team/junit/wiki/Download-and-Install
+	 * Tests must be in src/test/java
+	-->
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="src.main" value="src/main/java"/>
     <property name="src.test" value="src/test/java"/>
